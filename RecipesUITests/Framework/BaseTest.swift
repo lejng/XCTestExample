@@ -13,7 +13,6 @@ class BaseTest: XCTestCase {
     override func setUp() {
         super.setUp()
         continueAfterFailure = false
-        BaseTest.app.launchArguments = ["MY_UI_TEST_MODE"]
         BaseTest.app.launch()
     }
     
